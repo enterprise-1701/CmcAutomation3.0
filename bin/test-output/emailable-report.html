@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">FirefoxTest</td><td class="numi">32</td><td class="numi">32</td><td class="numi">0</td><td class="numi">0</td><td class="numi">863.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">FirefoxTest &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">automationFramework.TestCases.BalanceHistoryTest</td><td><a href="#m1"><b>checkBalanceHistory</b>  </a></td><td class="numi">1</td><td>1467391015866</td><td class="numi">22299</td></tr>
+<tr class="passedeven"><td rowspan="1">automationFramework.TestCases.EmailTest</td><td><a href="#m2"><b>checkEmailNewCustomer</b>  </a></td><td class="numi">1</td><td>1467391042596</td><td class="numi">37712</td></tr>
+<tr class="passedodd"><td rowspan="4">automationFramework.TestCases.CreateCustomerTest</td><td><a href="#m3"><b>createCustomerCancel</b>  </a></td><td class="numi">1</td><td>1467390262283</td><td class="numi">19456</td></tr><tr class="passedodd"><td><a href="#m4"><b>createCustomerContactTypeNotSelected</b>  </a></td><td class="numi">1</td><td>1467390287557</td><td class="numi">27695</td></tr><tr class="passedodd"><td><a href="#m5"><b>createCustomerEmailMissing</b>  </a></td><td class="numi">1</td><td>1467390465064</td><td class="numi">14619</td></tr><tr class="passedodd"><td><a href="#m6"><b>createCustomerFundingInvalidCC</b>  </a></td><td class="numi">1</td><td>1467390382629</td><td class="numi">18521</td></tr>
+<tr class="passedeven"><td rowspan="1">automationFramework.TestCases.CreateFundingTest</td><td><a href="#m7"><b>createCustomerFundingInvalidCC</b>  </a></td><td class="numi">1</td><td>1467390891169</td><td class="numi">27063</td></tr>
+<tr class="passedodd"><td rowspan="1">automationFramework.TestCases.CreateCustomerTest</td><td><a href="#m8"><b>createCustomerInvalidEmail</b>  </a></td><td class="numi">1</td><td>1467390320609</td><td class="numi">25539</td></tr>
+<tr class="passedeven"><td rowspan="1">automationFramework.TestCases.CreateFundingTest</td><td><a href="#m9"><b>createCustomerInvalidEmail</b>  </a></td><td class="numi">1</td><td>1467390863342</td><td class="numi">21484</td></tr>
+<tr class="passedodd"><td rowspan="4">automationFramework.TestCases.CreateCustomerTest</td><td><a href="#m10"><b>createCustomerInvalidPhone</b>  </a></td><td class="numi">1</td><td>1467390430781</td><td class="numi">11880</td></tr><tr class="passedodd"><td><a href="#m11"><b>createCustomerInvalidPin</b>  </a></td><td class="numi">1</td><td>1467390353270</td><td class="numi">22671</td></tr><tr class="passedodd"><td><a href="#m12"><b>createCustomerInvalidUserName</b>  </a></td><td class="numi">1</td><td>1467390405734</td><td class="numi">19225</td></tr><tr class="passedodd"><td><a href="#m13"><b>createCustomerNameMissing</b>  </a></td><td class="numi">1</td><td>1467390448862</td><td class="numi">9861</td></tr>
+<tr class="passedeven"><td rowspan="4">automationFramework.TestCases.CreateFundingTest</td><td><a href="#m14"><b>createFundingSource</b>  </a></td><td class="numi">1</td><td>1467390713438</td><td class="numi">39692</td></tr><tr class="passedeven"><td><a href="#m15"><b>createFundingSourceCancel</b>  </a></td><td class="numi">1</td><td>1467390810466</td><td class="numi">20973</td></tr><tr class="passedeven"><td><a href="#m16"><b>createFundingSourceNewBillingAddress</b>  </a></td><td class="numi">1</td><td>1467390759033</td><td class="numi">45509</td></tr><tr class="passedeven"><td><a href="#m17"><b>createFundingSourceTypeNotSelected</b>  </a></td><td class="numi">1</td><td>1467390837550</td><td class="numi">19630</td></tr>
+<tr class="passedodd"><td rowspan="1">automationFramework.TestCases.CreateCustomerTest</td><td><a href="#m18"><b>createNewCustomer</b>  </a></td><td class="numi">1</td><td>1467390223924</td><td class="numi">33336</td></tr>
+<tr class="passedeven"><td rowspan="3">automationFramework.TestCases.LinkAccountTest</td><td><a href="#m19"><b>linkAccountBankNumberMissingTest</b>  </a></td><td class="numi">1</td><td>1467390925224</td><td class="numi">24509</td></tr><tr class="passedeven"><td><a href="#m20"><b>linkAccountCancelTest</b>  </a></td><td class="numi">1</td><td>1467390957553</td><td class="numi">27649</td></tr><tr class="passedeven"><td><a href="#m21"><b>linkAccountCardExpirationMissingTest</b>  </a></td><td class="numi">1</td><td>1467390990067</td><td class="numi">21273</td></tr>
+<tr class="passedodd"><td rowspan="11">automationFramework.TestCases.SearchTest</td><td><a href="#m22"><b>searchCustomerCheckDuplicateTestAll</b>  </a></td><td class="numi">1</td><td>1467390687420</td><td class="numi">19660</td></tr><tr class="passedodd"><td><a href="#m23"><b>searchCustomerCheckDuplicateTestEmail</b>  </a></td><td class="numi">1</td><td>1467390645199</td><td class="numi">16623</td></tr><tr class="passedodd"><td><a href="#m24"><b>searchCustomerCheckDuplicateTestEmailPhone</b>  </a></td><td class="numi">1</td><td>1467390666506</td><td class="numi">16149</td></tr><tr class="passedodd"><td><a href="#m25"><b>searchCustomerCheckDuplicateTestFname</b>  </a></td><td class="numi">1</td><td>1467390560844</td><td class="numi">14602</td></tr><tr class="passedodd"><td><a href="#m26"><b>searchCustomerCheckDuplicateTestFnameLname</b>  </a></td><td class="numi">1</td><td>1467390603246</td><td class="numi">15792</td></tr><tr class="passedodd"><td><a href="#m27"><b>searchCustomerCheckDuplicateTestLname</b>  </a></td><td class="numi">1</td><td>1467390581782</td><td class="numi">14596</td></tr><tr class="passedodd"><td><a href="#m28"><b>searchCustomerCheckDuplicateTestPhone</b>  </a></td><td class="numi">1</td><td>1467390623678</td><td class="numi">17001</td></tr><tr class="passedodd"><td><a href="#m29"><b>searchCustomerInvalidEmail</b>  </a></td><td class="numi">1</td><td>1467390543279</td><td class="numi">11359</td></tr><tr class="passedodd"><td><a href="#m30"><b>searchCustomerNoResultsTest</b>  </a></td><td class="numi">1</td><td>1467390510396</td><td class="numi">12392</td></tr><tr class="passedodd"><td><a href="#m31"><b>searchCustomerNotVerifiedTest</b>  </a></td><td class="numi">1</td><td>1467390484808</td><td class="numi">19435</td></tr><tr class="passedodd"><td><a href="#m32"><b>searchCustomerTypeNotSelected</b>  </a></td><td class="numi">1</td><td>1467390527362</td><td class="numi">9196</td></tr>
+</table>
+<h1>FirefoxTest</h1>
+<h2 id="m1">automationFramework.TestCases.SearchTest:searchCustomerNotVerifiedTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">automationFramework.TestCases.CreateCustomerTest:createCustomerInvalidPin</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">automationFramework.TestCases.CreateCustomerTest:createCustomerInvalidUserName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">automationFramework.TestCases.SearchTest:searchCustomerCheckDuplicateTestPhone</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">automationFramework.TestCases.SearchTest:searchCustomerInvalidEmail</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">automationFramework.TestCases.CreateCustomerTest:createCustomerEmailMissing</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">automationFramework.TestCases.LinkAccountTest:linkAccountBankNumberMissingTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">automationFramework.TestCases.SearchTest:searchCustomerCheckDuplicateTestEmailPhone</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">automationFramework.TestCases.SearchTest:searchCustomerCheckDuplicateTestFnameLname</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">automationFramework.TestCases.CreateFundingTest:createFundingSourceNewBillingAddress</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">automationFramework.TestCases.CreateCustomerTest:createCustomerFundingInvalidCC</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">automationFramework.TestCases.CreateCustomerTest:createNewCustomer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">automationFramework.TestCases.CreateCustomerTest:createCustomerInvalidEmail</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">automationFramework.TestCases.CreateCustomerTest:createCustomerContactTypeNotSelected</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">automationFramework.TestCases.CreateFundingTest:createCustomerFundingInvalidCC</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">automationFramework.TestCases.SearchTest:searchCustomerNoResultsTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">automationFramework.TestCases.CreateCustomerTest:createCustomerNameMissing</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">automationFramework.TestCases.CreateFundingTest:createFundingSource</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">automationFramework.TestCases.EmailTest:checkEmailNewCustomer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">automationFramework.TestCases.SearchTest:searchCustomerCheckDuplicateTestAll</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">automationFramework.TestCases.CreateCustomerTest:createCustomerInvalidPhone</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">automationFramework.TestCases.SearchTest:searchCustomerCheckDuplicateTestFname</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">automationFramework.TestCases.LinkAccountTest:linkAccountCancelTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">automationFramework.TestCases.SearchTest:searchCustomerTypeNotSelected</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">automationFramework.TestCases.CreateCustomerTest:createCustomerCancel</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">automationFramework.TestCases.CreateFundingTest:createFundingSourceTypeNotSelected</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">automationFramework.TestCases.SearchTest:searchCustomerCheckDuplicateTestEmail</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">automationFramework.TestCases.CreateFundingTest:createFundingSourceCancel</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">automationFramework.TestCases.BalanceHistoryTest:checkBalanceHistory</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">automationFramework.TestCases.LinkAccountTest:linkAccountCardExpirationMissingTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">automationFramework.TestCases.SearchTest:searchCustomerCheckDuplicateTestLname</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">automationFramework.TestCases.CreateFundingTest:createCustomerInvalidEmail</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

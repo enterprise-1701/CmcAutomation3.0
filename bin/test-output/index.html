@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Automation_-_Suite">
+              <span class="suite-name border-passed">Automation - Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Automation_-_Suite">
+                    <span>C:\Users\200123\workspace\CmcAutomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Automation_-_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Automation_-_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Automation_-_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Automation_-_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Automation_-_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Automation_-_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">32 methods,   32 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Automation_-_Suite" class="hide-methods passed suite-Automation_-_Suite"> (hide)</a> <!-- hide-methods passed suite-Automation_-_Suite -->
+                      <a href="#" panel-name="suite-Automation_-_Suite" class="show-methods passed suite-Automation_-_Suite"> (show)</a> <!-- show-methods passed suite-Automation_-_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Automation_-_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.BalanceHistoryTest" hash-for-method="checkBalanceHistory">checkBalanceHistory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.EmailTest" hash-for-method="checkEmailNewCustomer">checkEmailNewCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.CreateCustomerTest" hash-for-method="createCustomerCancel">createCustomerCancel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.CreateCustomerTest" hash-for-method="createCustomerContactTypeNotSelected">createCustomerContactTypeNotSelected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.CreateCustomerTest" hash-for-method="createCustomerEmailMissing">createCustomerEmailMissing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.CreateCustomerTest" hash-for-method="createCustomerFundingInvalidCC">createCustomerFundingInvalidCC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.CreateFundingTest" hash-for-method="createCustomerFundingInvalidCC">createCustomerFundingInvalidCC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.CreateCustomerTest" hash-for-method="createCustomerInvalidEmail">createCustomerInvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.CreateFundingTest" hash-for-method="createCustomerInvalidEmail">createCustomerInvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.CreateCustomerTest" hash-for-method="createCustomerInvalidPhone">createCustomerInvalidPhone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.CreateCustomerTest" hash-for-method="createCustomerInvalidPin">createCustomerInvalidPin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.CreateCustomerTest" hash-for-method="createCustomerInvalidUserName">createCustomerInvalidUserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.CreateCustomerTest" hash-for-method="createCustomerNameMissing">createCustomerNameMissing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.CreateFundingTest" hash-for-method="createFundingSource">createFundingSource</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.CreateFundingTest" hash-for-method="createFundingSourceCancel">createFundingSourceCancel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.CreateFundingTest" hash-for-method="createFundingSourceNewBillingAddress">createFundingSourceNewBillingAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.CreateFundingTest" hash-for-method="createFundingSourceTypeNotSelected">createFundingSourceTypeNotSelected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.CreateCustomerTest" hash-for-method="createNewCustomer">createNewCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.LinkAccountTest" hash-for-method="linkAccountBankNumberMissingTest">linkAccountBankNumberMissingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.LinkAccountTest" hash-for-method="linkAccountCancelTest">linkAccountCancelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.LinkAccountTest" hash-for-method="linkAccountCardExpirationMissingTest">linkAccountCardExpirationMissingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.SearchTest" hash-for-method="searchCustomerCheckDuplicateTestAll">searchCustomerCheckDuplicateTestAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.SearchTest" hash-for-method="searchCustomerCheckDuplicateTestEmail">searchCustomerCheckDuplicateTestEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.SearchTest" hash-for-method="searchCustomerCheckDuplicateTestEmailPhone">searchCustomerCheckDuplicateTestEmailPhone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.SearchTest" hash-for-method="searchCustomerCheckDuplicateTestFname">searchCustomerCheckDuplicateTestFname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.SearchTest" hash-for-method="searchCustomerCheckDuplicateTestFnameLname">searchCustomerCheckDuplicateTestFnameLname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.SearchTest" hash-for-method="searchCustomerCheckDuplicateTestLname">searchCustomerCheckDuplicateTestLname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.SearchTest" hash-for-method="searchCustomerCheckDuplicateTestPhone">searchCustomerCheckDuplicateTestPhone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.SearchTest" hash-for-method="searchCustomerInvalidEmail">searchCustomerInvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.SearchTest" hash-for-method="searchCustomerNoResultsTest">searchCustomerNoResultsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.SearchTest" hash-for-method="searchCustomerNotVerifiedTest">searchCustomerNotVerifiedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.SearchTest" hash-for-method="searchCustomerTypeNotSelected">searchCustomerTypeNotSelected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Automation_-_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Automation_-_Suite" class="panel Automation_-_Suite">
+          <div class="suite-Automation_-_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automationFramework.TestCases.LinkAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="linkAccountBankNumberMissingTest">
+                  </a> <!-- linkAccountBankNumberMissingTest -->
+                  <span class="method-name">linkAccountBankNumberMissingTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="linkAccountCancelTest">
+                  </a> <!-- linkAccountCancelTest -->
+                  <span class="method-name">linkAccountCancelTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="linkAccountCardExpirationMissingTest">
+                  </a> <!-- linkAccountCardExpirationMissingTest -->
+                  <span class="method-name">linkAccountCardExpirationMissingTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_-_Suite-class-passed -->
+          <div class="suite-Automation_-_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automationFramework.TestCases.CreateCustomerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createCustomerCancel">
+                  </a> <!-- createCustomerCancel -->
+                  <span class="method-name">createCustomerCancel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createCustomerContactTypeNotSelected">
+                  </a> <!-- createCustomerContactTypeNotSelected -->
+                  <span class="method-name">createCustomerContactTypeNotSelected</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createCustomerEmailMissing">
+                  </a> <!-- createCustomerEmailMissing -->
+                  <span class="method-name">createCustomerEmailMissing</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createCustomerFundingInvalidCC">
+                  </a> <!-- createCustomerFundingInvalidCC -->
+                  <span class="method-name">createCustomerFundingInvalidCC</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createCustomerInvalidEmail">
+                  </a> <!-- createCustomerInvalidEmail -->
+                  <span class="method-name">createCustomerInvalidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createCustomerInvalidPhone">
+                  </a> <!-- createCustomerInvalidPhone -->
+                  <span class="method-name">createCustomerInvalidPhone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createCustomerInvalidPin">
+                  </a> <!-- createCustomerInvalidPin -->
+                  <span class="method-name">createCustomerInvalidPin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createCustomerInvalidUserName">
+                  </a> <!-- createCustomerInvalidUserName -->
+                  <span class="method-name">createCustomerInvalidUserName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createCustomerNameMissing">
+                  </a> <!-- createCustomerNameMissing -->
+                  <span class="method-name">createCustomerNameMissing</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewCustomer">
+                  </a> <!-- createNewCustomer -->
+                  <span class="method-name">createNewCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_-_Suite-class-passed -->
+          <div class="suite-Automation_-_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automationFramework.TestCases.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCustomerCheckDuplicateTestAll">
+                  </a> <!-- searchCustomerCheckDuplicateTestAll -->
+                  <span class="method-name">searchCustomerCheckDuplicateTestAll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCustomerCheckDuplicateTestEmail">
+                  </a> <!-- searchCustomerCheckDuplicateTestEmail -->
+                  <span class="method-name">searchCustomerCheckDuplicateTestEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCustomerCheckDuplicateTestEmailPhone">
+                  </a> <!-- searchCustomerCheckDuplicateTestEmailPhone -->
+                  <span class="method-name">searchCustomerCheckDuplicateTestEmailPhone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCustomerCheckDuplicateTestFname">
+                  </a> <!-- searchCustomerCheckDuplicateTestFname -->
+                  <span class="method-name">searchCustomerCheckDuplicateTestFname</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCustomerCheckDuplicateTestFnameLname">
+                  </a> <!-- searchCustomerCheckDuplicateTestFnameLname -->
+                  <span class="method-name">searchCustomerCheckDuplicateTestFnameLname</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCustomerCheckDuplicateTestLname">
+                  </a> <!-- searchCustomerCheckDuplicateTestLname -->
+                  <span class="method-name">searchCustomerCheckDuplicateTestLname</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCustomerCheckDuplicateTestPhone">
+                  </a> <!-- searchCustomerCheckDuplicateTestPhone -->
+                  <span class="method-name">searchCustomerCheckDuplicateTestPhone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCustomerInvalidEmail">
+                  </a> <!-- searchCustomerInvalidEmail -->
+                  <span class="method-name">searchCustomerInvalidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCustomerNoResultsTest">
+                  </a> <!-- searchCustomerNoResultsTest -->
+                  <span class="method-name">searchCustomerNoResultsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCustomerNotVerifiedTest">
+                  </a> <!-- searchCustomerNotVerifiedTest -->
+                  <span class="method-name">searchCustomerNotVerifiedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCustomerTypeNotSelected">
+                  </a> <!-- searchCustomerTypeNotSelected -->
+                  <span class="method-name">searchCustomerTypeNotSelected</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_-_Suite-class-passed -->
+          <div class="suite-Automation_-_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automationFramework.TestCases.BalanceHistoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkBalanceHistory">
+                  </a> <!-- checkBalanceHistory -->
+                  <span class="method-name">checkBalanceHistory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_-_Suite-class-passed -->
+          <div class="suite-Automation_-_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automationFramework.TestCases.CreateFundingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createCustomerFundingInvalidCC">
+                  </a> <!-- createCustomerFundingInvalidCC -->
+                  <span class="method-name">createCustomerFundingInvalidCC</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createCustomerInvalidEmail">
+                  </a> <!-- createCustomerInvalidEmail -->
+                  <span class="method-name">createCustomerInvalidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createFundingSource">
+                  </a> <!-- createFundingSource -->
+                  <span class="method-name">createFundingSource</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createFundingSourceCancel">
+                  </a> <!-- createFundingSourceCancel -->
+                  <span class="method-name">createFundingSourceCancel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createFundingSourceNewBillingAddress">
+                  </a> <!-- createFundingSourceNewBillingAddress -->
+                  <span class="method-name">createFundingSourceNewBillingAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createFundingSourceTypeNotSelected">
+                  </a> <!-- createFundingSourceTypeNotSelected -->
+                  <span class="method-name">createFundingSourceTypeNotSelected</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_-_Suite-class-passed -->
+          <div class="suite-Automation_-_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automationFramework.TestCases.EmailTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkEmailNewCustomer">
+                  </a> <!-- checkEmailNewCustomer -->
+                  <span class="method-name">checkEmailNewCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_-_Suite-class-passed -->
+        </div> <!-- panel Automation_-_Suite -->
+        <div panel-name="test-xml-Automation_-_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\200123\workspace\CmcAutomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Automation - Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;FirefoxTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox.exe&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;automationFramework.TestCases.CreateCustomerTest&quot;/&gt;
+      &lt;class name=&quot;automationFramework.TestCases.SearchTest&quot;/&gt;
+      &lt;class name=&quot;automationFramework.TestCases.CreateFundingTest&quot;/&gt;
+      &lt;class name=&quot;automationFramework.TestCases.LinkAccountTest&quot;/&gt;
+      &lt;class name=&quot;automationFramework.TestCases.BalanceHistoryTest&quot;/&gt;
+      &lt;class name=&quot;automationFramework.TestCases.EmailTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FirefoxTest --&gt;
+&lt;/suite&gt; &lt;!-- Automation - Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Automation_-_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Automation - Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">FirefoxTest (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Automation_-_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Automation - Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Automation_-_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Automation - Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Automation_-_Suite');
+function tableData_Automation_-_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(32);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createFundingSourceNewBillingAddress')
+data.setCell(0, 2, 'automationFramework.TestCases.CreateFundingTest')
+data.setCell(0, 3, 45509);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createFundingSource')
+data.setCell(1, 2, 'automationFramework.TestCases.CreateFundingTest')
+data.setCell(1, 3, 39692);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkEmailNewCustomer')
+data.setCell(2, 2, 'automationFramework.TestCases.EmailTest')
+data.setCell(2, 3, 37712);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createNewCustomer')
+data.setCell(3, 2, 'automationFramework.TestCases.CreateCustomerTest')
+data.setCell(3, 3, 33336);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createCustomerContactTypeNotSelected')
+data.setCell(4, 2, 'automationFramework.TestCases.CreateCustomerTest')
+data.setCell(4, 3, 27695);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'linkAccountCancelTest')
+data.setCell(5, 2, 'automationFramework.TestCases.LinkAccountTest')
+data.setCell(5, 3, 27649);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'createCustomerFundingInvalidCC')
+data.setCell(6, 2, 'automationFramework.TestCases.CreateFundingTest')
+data.setCell(6, 3, 27063);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createCustomerInvalidEmail')
+data.setCell(7, 2, 'automationFramework.TestCases.CreateCustomerTest')
+data.setCell(7, 3, 25539);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'linkAccountBankNumberMissingTest')
+data.setCell(8, 2, 'automationFramework.TestCases.LinkAccountTest')
+data.setCell(8, 3, 24509);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'createCustomerInvalidPin')
+data.setCell(9, 2, 'automationFramework.TestCases.CreateCustomerTest')
+data.setCell(9, 3, 22671);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkBalanceHistory')
+data.setCell(10, 2, 'automationFramework.TestCases.BalanceHistoryTest')
+data.setCell(10, 3, 22299);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'createCustomerInvalidEmail')
+data.setCell(11, 2, 'automationFramework.TestCases.CreateFundingTest')
+data.setCell(11, 3, 21484);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'linkAccountCardExpirationMissingTest')
+data.setCell(12, 2, 'automationFramework.TestCases.LinkAccountTest')
+data.setCell(12, 3, 21273);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'createFundingSourceCancel')
+data.setCell(13, 2, 'automationFramework.TestCases.CreateFundingTest')
+data.setCell(13, 3, 20973);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'searchCustomerCheckDuplicateTestAll')
+data.setCell(14, 2, 'automationFramework.TestCases.SearchTest')
+data.setCell(14, 3, 19660);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'createFundingSourceTypeNotSelected')
+data.setCell(15, 2, 'automationFramework.TestCases.CreateFundingTest')
+data.setCell(15, 3, 19630);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'createCustomerCancel')
+data.setCell(16, 2, 'automationFramework.TestCases.CreateCustomerTest')
+data.setCell(16, 3, 19456);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'searchCustomerNotVerifiedTest')
+data.setCell(17, 2, 'automationFramework.TestCases.SearchTest')
+data.setCell(17, 3, 19435);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'createCustomerInvalidUserName')
+data.setCell(18, 2, 'automationFramework.TestCases.CreateCustomerTest')
+data.setCell(18, 3, 19225);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'createCustomerFundingInvalidCC')
+data.setCell(19, 2, 'automationFramework.TestCases.CreateCustomerTest')
+data.setCell(19, 3, 18521);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'searchCustomerCheckDuplicateTestPhone')
+data.setCell(20, 2, 'automationFramework.TestCases.SearchTest')
+data.setCell(20, 3, 17001);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'searchCustomerCheckDuplicateTestEmail')
+data.setCell(21, 2, 'automationFramework.TestCases.SearchTest')
+data.setCell(21, 3, 16623);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'searchCustomerCheckDuplicateTestEmailPhone')
+data.setCell(22, 2, 'automationFramework.TestCases.SearchTest')
+data.setCell(22, 3, 16149);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'searchCustomerCheckDuplicateTestFnameLname')
+data.setCell(23, 2, 'automationFramework.TestCases.SearchTest')
+data.setCell(23, 3, 15792);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'createCustomerEmailMissing')
+data.setCell(24, 2, 'automationFramework.TestCases.CreateCustomerTest')
+data.setCell(24, 3, 14619);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'searchCustomerCheckDuplicateTestFname')
+data.setCell(25, 2, 'automationFramework.TestCases.SearchTest')
+data.setCell(25, 3, 14602);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'searchCustomerCheckDuplicateTestLname')
+data.setCell(26, 2, 'automationFramework.TestCases.SearchTest')
+data.setCell(26, 3, 14596);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'searchCustomerNoResultsTest')
+data.setCell(27, 2, 'automationFramework.TestCases.SearchTest')
+data.setCell(27, 3, 12392);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'createCustomerInvalidPhone')
+data.setCell(28, 2, 'automationFramework.TestCases.CreateCustomerTest')
+data.setCell(28, 3, 11880);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'searchCustomerInvalidEmail')
+data.setCell(29, 2, 'automationFramework.TestCases.SearchTest')
+data.setCell(29, 3, 11359);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'createCustomerNameMissing')
+data.setCell(30, 2, 'automationFramework.TestCases.CreateCustomerTest')
+data.setCell(30, 3, 9861);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'searchCustomerTypeNotSelected')
+data.setCell(31, 2, 'automationFramework.TestCases.SearchTest')
+data.setCell(31, 3, 9196);
+window.suiteTableData['Automation_-_Suite']= { tableData: data, tableDiv: 'times-div-Automation_-_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 minutes</span>
+              <div id="times-div-Automation_-_Suite">
+              </div> <!-- times-div-Automation_-_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Automation_-_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Automation - Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Automation_-_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">automationFramework.TestCases.LinkAccountTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">linkAccountClosedException</span>
+                <br/>
+                <span class="ignored-method-name">linkAccountVerifiedTest</span>
+                <br/>
+                <span class="ignored-method-name">linkAccountAlreadyLinkedException</span>
+                <br/>
+                <span class="ignored-method-name">linkAccountNotVerifiedTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">automationFramework.TestCases.BalanceHistoryTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">checkBalanceHistoryDetail</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">automationFramework.TestCases.SearchTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">searchCustomerVerifiedTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Automation_-_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">automationFramework.TestCases.CreateCustomerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createNewCustomer</span>
+                <span class="method-start">6973 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40311 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">40612 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createCustomerCancel</span>
+                <span class="method-start">45332 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64790 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">65094 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createCustomerContactTypeNotSelected</span>
+                <span class="method-start">70606 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">98304 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">98599 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createCustomerInvalidEmail</span>
+                <span class="method-start">103658 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">129202 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">129565 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createCustomerInvalidPin</span>
+                <span class="method-start">136319 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">158991 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">159319 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createCustomerFundingInvalidCC</span>
+                <span class="method-start">165678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">184200 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">184500 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createCustomerInvalidUserName</span>
+                <span class="method-start">188783 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">208009 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">208278 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createCustomerInvalidPhone</span>
+                <span class="method-start">213830 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">225710 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">226042 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createCustomerNameMissing</span>
+                <span class="method-start">231911 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">241773 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">242039 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createCustomerEmailMissing</span>
+                <span class="method-start">248113 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">262733 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automationFramework.TestCases.SearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">263078 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchCustomerNotVerifiedTest</span>
+                <span class="method-start">267857 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">287293 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">287563 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchCustomerNoResultsTest</span>
+                <span class="method-start">293445 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">305838 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">306110 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchCustomerTypeNotSelected</span>
+                <span class="method-start">310411 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">319608 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">319876 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchCustomerInvalidEmail</span>
+                <span class="method-start">326328 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">337688 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">337952 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchCustomerCheckDuplicateTestFname</span>
+                <span class="method-start">343893 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">358496 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">358764 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchCustomerCheckDuplicateTestLname</span>
+                <span class="method-start">364831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">379428 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">379700 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchCustomerCheckDuplicateTestFnameLname</span>
+                <span class="method-start">386295 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">402087 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">402358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchCustomerCheckDuplicateTestPhone</span>
+                <span class="method-start">406727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">423728 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">423995 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchCustomerCheckDuplicateTestEmail</span>
+                <span class="method-start">428248 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">444871 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">445147 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchCustomerCheckDuplicateTestEmailPhone</span>
+                <span class="method-start">449555 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">465704 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">465977 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchCustomerCheckDuplicateTestAll</span>
+                <span class="method-start">470469 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">490130 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automationFramework.TestCases.CreateFundingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">490402 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createFundingSource</span>
+                <span class="method-start">496487 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">536180 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">536450 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createFundingSourceNewBillingAddress</span>
+                <span class="method-start">542082 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">587592 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">588025 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createFundingSourceCancel</span>
+                <span class="method-start">593515 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">614488 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">614757 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createFundingSourceTypeNotSelected</span>
+                <span class="method-start">620599 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">640230 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">640504 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createCustomerInvalidEmail</span>
+                <span class="method-start">646391 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">667875 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">668246 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createCustomerFundingInvalidCC</span>
+                <span class="method-start">674218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">701282 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automationFramework.TestCases.LinkAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">701575 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">linkAccountBankNumberMissingTest</span>
+                <span class="method-start">708273 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">732782 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">733409 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">linkAccountCancelTest</span>
+                <span class="method-start">740602 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">768252 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">768559 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">linkAccountCardExpirationMissingTest</span>
+                <span class="method-start">773116 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">794390 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automationFramework.TestCases.BalanceHistoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">794653 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkBalanceHistory</span>
+                <span class="method-start">798915 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">821215 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automationFramework.TestCases.EmailTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox.exe)</span>
+                <span class="method-start">821493 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkEmailNewCustomer</span>
+                <span class="method-start">825645 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">863358 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

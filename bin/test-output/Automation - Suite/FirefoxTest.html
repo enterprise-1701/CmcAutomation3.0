@@ -1,0 +1,239 @@
+<html>
+<head>
+<title>TestNG:  FirefoxTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>FirefoxTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>32/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 01 09:23:36 PDT 2016</td>
+</tr>
+<tr><td>Total time:</td><td>863 seconds (863594 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='automationFramework.TestCases.BalanceHistoryTest.checkBalanceHistory()'><b>checkBalanceHistory</b><br>Test class: automationFramework.TestCases.BalanceHistoryTest</td>
+<td></td>
+<td>22</td>
+<td>automationFramework.TestCases.BalanceHistoryTest@6acdbdf5</td></tr>
+<tr>
+<td title='automationFramework.TestCases.EmailTest.checkEmailNewCustomer()'><b>checkEmailNewCustomer</b><br>Test class: automationFramework.TestCases.EmailTest</td>
+<td></td>
+<td>37</td>
+<td>automationFramework.TestCases.EmailTest@17579e0f</td></tr>
+<tr>
+<td title='automationFramework.TestCases.CreateCustomerTest.createCustomerCancel()'><b>createCustomerCancel</b><br>Test class: automationFramework.TestCases.CreateCustomerTest</td>
+<td></td>
+<td>19</td>
+<td>automationFramework.TestCases.CreateCustomerTest@74650e52</td></tr>
+<tr>
+<td title='automationFramework.TestCases.CreateCustomerTest.createCustomerContactTypeNotSelected()'><b>createCustomerContactTypeNotSelected</b><br>Test class: automationFramework.TestCases.CreateCustomerTest</td>
+<td></td>
+<td>27</td>
+<td>automationFramework.TestCases.CreateCustomerTest@74650e52</td></tr>
+<tr>
+<td title='automationFramework.TestCases.CreateCustomerTest.createCustomerEmailMissing()'><b>createCustomerEmailMissing</b><br>Test class: automationFramework.TestCases.CreateCustomerTest</td>
+<td></td>
+<td>14</td>
+<td>automationFramework.TestCases.CreateCustomerTest@74650e52</td></tr>
+<tr>
+<td title='automationFramework.TestCases.CreateCustomerTest.createCustomerFundingInvalidCC()'><b>createCustomerFundingInvalidCC</b><br>Test class: automationFramework.TestCases.CreateCustomerTest</td>
+<td></td>
+<td>18</td>
+<td>automationFramework.TestCases.CreateCustomerTest@74650e52</td></tr>
+<tr>
+<td title='automationFramework.TestCases.CreateFundingTest.createCustomerFundingInvalidCC()'><b>createCustomerFundingInvalidCC</b><br>Test class: automationFramework.TestCases.CreateFundingTest</td>
+<td></td>
+<td>27</td>
+<td>automationFramework.TestCases.CreateFundingTest@4b1c1ea0</td></tr>
+<tr>
+<td title='automationFramework.TestCases.CreateCustomerTest.createCustomerInvalidEmail()'><b>createCustomerInvalidEmail</b><br>Test class: automationFramework.TestCases.CreateCustomerTest</td>
+<td></td>
+<td>25</td>
+<td>automationFramework.TestCases.CreateCustomerTest@74650e52</td></tr>
+<tr>
+<td title='automationFramework.TestCases.CreateFundingTest.createCustomerInvalidEmail()'><b>createCustomerInvalidEmail</b><br>Test class: automationFramework.TestCases.CreateFundingTest</td>
+<td></td>
+<td>21</td>
+<td>automationFramework.TestCases.CreateFundingTest@4b1c1ea0</td></tr>
+<tr>
+<td title='automationFramework.TestCases.CreateCustomerTest.createCustomerInvalidPhone()'><b>createCustomerInvalidPhone</b><br>Test class: automationFramework.TestCases.CreateCustomerTest</td>
+<td></td>
+<td>11</td>
+<td>automationFramework.TestCases.CreateCustomerTest@74650e52</td></tr>
+<tr>
+<td title='automationFramework.TestCases.CreateCustomerTest.createCustomerInvalidPin()'><b>createCustomerInvalidPin</b><br>Test class: automationFramework.TestCases.CreateCustomerTest</td>
+<td></td>
+<td>22</td>
+<td>automationFramework.TestCases.CreateCustomerTest@74650e52</td></tr>
+<tr>
+<td title='automationFramework.TestCases.CreateCustomerTest.createCustomerInvalidUserName()'><b>createCustomerInvalidUserName</b><br>Test class: automationFramework.TestCases.CreateCustomerTest</td>
+<td></td>
+<td>19</td>
+<td>automationFramework.TestCases.CreateCustomerTest@74650e52</td></tr>
+<tr>
+<td title='automationFramework.TestCases.CreateCustomerTest.createCustomerNameMissing()'><b>createCustomerNameMissing</b><br>Test class: automationFramework.TestCases.CreateCustomerTest</td>
+<td></td>
+<td>9</td>
+<td>automationFramework.TestCases.CreateCustomerTest@74650e52</td></tr>
+<tr>
+<td title='automationFramework.TestCases.CreateFundingTest.createFundingSource()'><b>createFundingSource</b><br>Test class: automationFramework.TestCases.CreateFundingTest</td>
+<td></td>
+<td>39</td>
+<td>automationFramework.TestCases.CreateFundingTest@4b1c1ea0</td></tr>
+<tr>
+<td title='automationFramework.TestCases.CreateFundingTest.createFundingSourceCancel()'><b>createFundingSourceCancel</b><br>Test class: automationFramework.TestCases.CreateFundingTest</td>
+<td></td>
+<td>20</td>
+<td>automationFramework.TestCases.CreateFundingTest@4b1c1ea0</td></tr>
+<tr>
+<td title='automationFramework.TestCases.CreateFundingTest.createFundingSourceNewBillingAddress()'><b>createFundingSourceNewBillingAddress</b><br>Test class: automationFramework.TestCases.CreateFundingTest</td>
+<td></td>
+<td>45</td>
+<td>automationFramework.TestCases.CreateFundingTest@4b1c1ea0</td></tr>
+<tr>
+<td title='automationFramework.TestCases.CreateFundingTest.createFundingSourceTypeNotSelected()'><b>createFundingSourceTypeNotSelected</b><br>Test class: automationFramework.TestCases.CreateFundingTest</td>
+<td></td>
+<td>19</td>
+<td>automationFramework.TestCases.CreateFundingTest@4b1c1ea0</td></tr>
+<tr>
+<td title='automationFramework.TestCases.CreateCustomerTest.createNewCustomer()'><b>createNewCustomer</b><br>Test class: automationFramework.TestCases.CreateCustomerTest</td>
+<td></td>
+<td>33</td>
+<td>automationFramework.TestCases.CreateCustomerTest@74650e52</td></tr>
+<tr>
+<td title='automationFramework.TestCases.LinkAccountTest.linkAccountBankNumberMissingTest()'><b>linkAccountBankNumberMissingTest</b><br>Test class: automationFramework.TestCases.LinkAccountTest</td>
+<td></td>
+<td>24</td>
+<td>automationFramework.TestCases.LinkAccountTest@184f6be2</td></tr>
+<tr>
+<td title='automationFramework.TestCases.LinkAccountTest.linkAccountCancelTest()'><b>linkAccountCancelTest</b><br>Test class: automationFramework.TestCases.LinkAccountTest</td>
+<td></td>
+<td>27</td>
+<td>automationFramework.TestCases.LinkAccountTest@184f6be2</td></tr>
+<tr>
+<td title='automationFramework.TestCases.LinkAccountTest.linkAccountCardExpirationMissingTest()'><b>linkAccountCardExpirationMissingTest</b><br>Test class: automationFramework.TestCases.LinkAccountTest</td>
+<td></td>
+<td>21</td>
+<td>automationFramework.TestCases.LinkAccountTest@184f6be2</td></tr>
+<tr>
+<td title='automationFramework.TestCases.SearchTest.searchCustomerCheckDuplicateTestAll()'><b>searchCustomerCheckDuplicateTestAll</b><br>Test class: automationFramework.TestCases.SearchTest</td>
+<td></td>
+<td>19</td>
+<td>automationFramework.TestCases.SearchTest@15d0c81b</td></tr>
+<tr>
+<td title='automationFramework.TestCases.SearchTest.searchCustomerCheckDuplicateTestEmail()'><b>searchCustomerCheckDuplicateTestEmail</b><br>Test class: automationFramework.TestCases.SearchTest</td>
+<td></td>
+<td>16</td>
+<td>automationFramework.TestCases.SearchTest@15d0c81b</td></tr>
+<tr>
+<td title='automationFramework.TestCases.SearchTest.searchCustomerCheckDuplicateTestEmailPhone()'><b>searchCustomerCheckDuplicateTestEmailPhone</b><br>Test class: automationFramework.TestCases.SearchTest</td>
+<td></td>
+<td>16</td>
+<td>automationFramework.TestCases.SearchTest@15d0c81b</td></tr>
+<tr>
+<td title='automationFramework.TestCases.SearchTest.searchCustomerCheckDuplicateTestFname()'><b>searchCustomerCheckDuplicateTestFname</b><br>Test class: automationFramework.TestCases.SearchTest</td>
+<td></td>
+<td>14</td>
+<td>automationFramework.TestCases.SearchTest@15d0c81b</td></tr>
+<tr>
+<td title='automationFramework.TestCases.SearchTest.searchCustomerCheckDuplicateTestFnameLname()'><b>searchCustomerCheckDuplicateTestFnameLname</b><br>Test class: automationFramework.TestCases.SearchTest</td>
+<td></td>
+<td>15</td>
+<td>automationFramework.TestCases.SearchTest@15d0c81b</td></tr>
+<tr>
+<td title='automationFramework.TestCases.SearchTest.searchCustomerCheckDuplicateTestLname()'><b>searchCustomerCheckDuplicateTestLname</b><br>Test class: automationFramework.TestCases.SearchTest</td>
+<td></td>
+<td>14</td>
+<td>automationFramework.TestCases.SearchTest@15d0c81b</td></tr>
+<tr>
+<td title='automationFramework.TestCases.SearchTest.searchCustomerCheckDuplicateTestPhone()'><b>searchCustomerCheckDuplicateTestPhone</b><br>Test class: automationFramework.TestCases.SearchTest</td>
+<td></td>
+<td>17</td>
+<td>automationFramework.TestCases.SearchTest@15d0c81b</td></tr>
+<tr>
+<td title='automationFramework.TestCases.SearchTest.searchCustomerInvalidEmail()'><b>searchCustomerInvalidEmail</b><br>Test class: automationFramework.TestCases.SearchTest</td>
+<td></td>
+<td>11</td>
+<td>automationFramework.TestCases.SearchTest@15d0c81b</td></tr>
+<tr>
+<td title='automationFramework.TestCases.SearchTest.searchCustomerNoResultsTest()'><b>searchCustomerNoResultsTest</b><br>Test class: automationFramework.TestCases.SearchTest</td>
+<td></td>
+<td>12</td>
+<td>automationFramework.TestCases.SearchTest@15d0c81b</td></tr>
+<tr>
+<td title='automationFramework.TestCases.SearchTest.searchCustomerNotVerifiedTest()'><b>searchCustomerNotVerifiedTest</b><br>Test class: automationFramework.TestCases.SearchTest</td>
+<td></td>
+<td>19</td>
+<td>automationFramework.TestCases.SearchTest@15d0c81b</td></tr>
+<tr>
+<td title='automationFramework.TestCases.SearchTest.searchCustomerTypeNotSelected()'><b>searchCustomerTypeNotSelected</b><br>Test class: automationFramework.TestCases.SearchTest</td>
+<td></td>
+<td>9</td>
+<td>automationFramework.TestCases.SearchTest@15d0c81b</td></tr>
+</table><p>
+</body>
+</html>

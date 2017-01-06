@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FirefoxTest"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="139.091">
+  <properties />
+  
+  
+            <testcase name="createOrderCancelDBcheck" time="69.223" classname="automationFramework.TestCases.CreateOrderDBTest" />
+                <testcase name="createOrderDBcheck" time="69.868" classname="automationFramework.TestCases.CreateOrderDBTest" />
+      
+</testsuite>

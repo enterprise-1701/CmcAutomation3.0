@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ChromeTest"
+           tests="11"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="384.275">
+  <properties />
+  
+  
+            <testcase name="updateContactInvalidPin" time="32.198" classname="automationFramework.TestCases.UpdateContactTest" />
+                <testcase name="updateContactOtherPhonesMissing" time="28.663" classname="automationFramework.TestCases.UpdateContactTest" />
+                <testcase name="updateContactCancel" time="34.178" classname="automationFramework.TestCases.UpdateContactTest" />
+                <testcase name="updateContactAndAddressCancel" time="37.437" classname="automationFramework.TestCases.UpdateContactTest" />
+                <testcase name="updateContactInvalidEmail" time="31.339" classname="automationFramework.TestCases.UpdateContactTest" />
+                <testcase name="updateContactSecurityAnswermissing" time="28.196" classname="automationFramework.TestCases.UpdateContactTest" />
+                <testcase name="updateContactInvalidUserName" time="32.614" classname="automationFramework.TestCases.UpdateContactTest" />
+                <testcase name="updateContact" time="42.024" classname="automationFramework.TestCases.UpdateContactTest" />
+                <testcase name="updateContactCheckRequiredFields" time="34.068" classname="automationFramework.TestCases.UpdateContactTest" />
+                <testcase name="updateContactInvalidPhone" time="40.902" classname="automationFramework.TestCases.UpdateContactTest" />
+                <testcase name="updateContactAndAddress" time="42.656" classname="automationFramework.TestCases.UpdateContactTest" />
+      
+</testsuite>

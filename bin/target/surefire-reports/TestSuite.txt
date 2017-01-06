@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.248 sec <<< FAILURE!
+createCustomerFundingInvalidCC(automationFramework.TestCases.CmcTest)  Time elapsed: 14.206 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 4
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NACTS-081729', ip: '149.63.89.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:186)
+	at automationFramework.PageObjects.CreateFundingPage.selectYear(CreateFundingPage.java:94)
+	at automationFramework.TestCases.CmcTest.createCustomerFundingInvalidCC(CmcTest.java:430)

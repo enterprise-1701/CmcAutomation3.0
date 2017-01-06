@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FirefoxTest"
+           tests="10"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="202.803">
+  <properties />
+  
+  
+            <testcase name="createCustomerInvalidPin" time="22.671" classname="automationFramework.TestCases.CreateCustomerTest" />
+                <testcase name="createCustomerInvalidUserName" time="19.225" classname="automationFramework.TestCases.CreateCustomerTest" />
+                <testcase name="createCustomerEmailMissing" time="14.619" classname="automationFramework.TestCases.CreateCustomerTest" />
+                <testcase name="createCustomerFundingInvalidCC" time="18.521" classname="automationFramework.TestCases.CreateCustomerTest" />
+                <testcase name="createNewCustomer" time="33.336" classname="automationFramework.TestCases.CreateCustomerTest" />
+                <testcase name="createCustomerInvalidEmail" time="25.539" classname="automationFramework.TestCases.CreateCustomerTest" />
+                <testcase name="createCustomerContactTypeNotSelected" time="27.695" classname="automationFramework.TestCases.CreateCustomerTest" />
+                <testcase name="createCustomerNameMissing" time="9.861" classname="automationFramework.TestCases.CreateCustomerTest" />
+                <testcase name="createCustomerInvalidPhone" time="11.880" classname="automationFramework.TestCases.CreateCustomerTest" />
+                <testcase name="createCustomerCancel" time="19.456" classname="automationFramework.TestCases.CreateCustomerTest" />
+      
+</testsuite>

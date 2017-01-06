@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ChromeTest"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="137.409">
+  <properties />
+  
+  
+            <testcase name="createNewCustomerDBCheckContactTable" time="23.782" classname="automationFramework.TestCases.CreateCustomerDBTest" />
+                <testcase name="createNewCustomerCancelDBCheck" time="17.699" classname="automationFramework.TestCases.CreateCustomerDBTest" />
+                <testcase name="createNewCustomerDBCheckAddressTable" time="23.680" classname="automationFramework.TestCases.CreateCustomerDBTest" />
+                <testcase name="createNewCustomerDBCheckAccountTable" time="24.524" classname="automationFramework.TestCases.CreateCustomerDBTest" />
+                <testcase name="createNewCustomerDBCheckSecurityTable" time="24.258" classname="automationFramework.TestCases.CreateCustomerDBTest" />
+                <testcase name="createNewCustomerDBCheckPhoneTable" time="23.466" classname="automationFramework.TestCases.CreateCustomerDBTest" />
+      
+</testsuite>

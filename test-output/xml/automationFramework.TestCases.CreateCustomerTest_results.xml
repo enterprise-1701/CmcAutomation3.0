@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ChromeTest"
+           tests="12"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="236.735">
+  <properties />
+  
+  
+            <testcase name="createCustomerInvalidPhone" time="11.543" classname="automationFramework.TestCases.CreateCustomerTest" />
+                <testcase name="createCustomerInvalidUserName" time="17.115" classname="automationFramework.TestCases.CreateCustomerTest" />
+                <testcase name="createCustomerPostalCodeMissing" time="28.026" classname="automationFramework.TestCases.CreateCustomerTest" />
+                <testcase name="createNewCustomer" time="22.761" classname="automationFramework.TestCases.CreateCustomerTest" />
+                <testcase name="createCustomerInvalidPin" time="16.625" classname="automationFramework.TestCases.CreateCustomerTest" />
+                <testcase name="createCustomerNameMissing" time="10.844" classname="automationFramework.TestCases.CreateCustomerTest" />
+                <testcase name="createCustomerInvalidPin2" time="25.747" classname="automationFramework.TestCases.CreateCustomerTest" />
+                <testcase name="createCustomerDuplicateUserName" time="46.384" classname="automationFramework.TestCases.CreateCustomerTest" />
+                <testcase name="createCustomerContactTypeNotSelected" time="17.452" classname="automationFramework.TestCases.CreateCustomerTest" />
+                <testcase name="createCustomerCancel" time="16.821" classname="automationFramework.TestCases.CreateCustomerTest" />
+                <testcase name="createCustomerEmailMissing" time="10.772" classname="automationFramework.TestCases.CreateCustomerTest" />
+                <testcase name="createCustomerInvalidEmail" time="12.645" classname="automationFramework.TestCases.CreateCustomerTest" />
+      
+</testsuite>

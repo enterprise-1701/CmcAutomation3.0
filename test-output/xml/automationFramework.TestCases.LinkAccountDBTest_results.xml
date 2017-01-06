@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FirefoxTest"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="59.070">
+  <properties />
+  
+  
+            <testcase name="createLinkAccountDBcheck" time="0.119" classname="automationFramework.TestCases.LinkAccountDBTest" />
+                <testcase name="createLinkAccountCancellDBcheck" time="58.951" classname="automationFramework.TestCases.LinkAccountDBTest" />
+      
+</testsuite>

@@ -1,0 +1,3796 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="18" failures="10" name="TestSuite" time="554.483" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="CMCAutomation3"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="e365e32deb8c86f4"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_77\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\WINDOWS\TEMP"/>
+    <property name="java.runtime.version" value="1.8.0_77-b03"/>
+    <property name="user.name" value="NACTS-081729$"/>
+    <property name="RoxioCentral" value="C:\Program Files (x86)\Common Files\Roxio Shared\10.0\Roxio Central36\"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
+    <property name="user.language" value="en"/>
+    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
+    <property name="java.version" value="1.8.0_77"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="USERNAME" value="NACTS-081729$"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
+    <property name="SSF_LIBRARY_PATH_64" value="C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="1"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_77\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.1"/>
+    <property name="TMP" value="C:\WINDOWS\TEMP"/>
+    <property name="SapSrcDir" value="\\bb-help01\SAP"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.77-b03"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="GRADLE_HOME" value="C:\Users\200123\Downloads\gradle-2.13-all\gradle-2.13"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_77"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="SSF_LIBRARY_PATH" value="C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll"/>
+    <property name="SERVICE_ID" value="jenkins"/>
+    <property name="COMPUTERNAME" value="NACTS-081729"/>
+    <property name="user.script" value=""/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="BUILD_TAG" value="jenkins-CMCAutomation3-1"/>
+    <property name="JENKINS_SERVER_COOKIE" value="e365e32deb8c86f4"/>
+    <property name="HUDSON_URL" value="http://149.63.89.132:8080/"/>
+    <property name="SNC_LIB_64" value="C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_77\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin;C:\Program Files\Java\jdk1.8.0_77/bin;C:\Program Files\Java\jdk1.8.0_77/bin;C:\ProgramData\Oracle\Java\javapath;C:\oracle\product\10.2.0\clientx86_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\10.0\DLLShared\;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Program Files\MongoDB\Server\3.2\bin;C:\Users\200123\Downloads\gradle-2.13-all\gradle-2.13\bin;C:\dev\bin;C:\cts\jdk8\bin;C:\dev\unix\usr\local\wbin;C:\Program Files\nodejs\;C:\dev\unix\usr\local\wbin;;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="SNC_LIB" value="C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-agent-1.5.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\boot\plexus-classworlds-2.5.2.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.53.3.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 61527"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_77/bin;C:\ProgramData\Oracle\Java\javapath;C:\oracle\product\10.2.0\clientx86_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\10.0\DLLShared\;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Program Files\MongoDB\Server\3.2\bin;C:\Users\200123\Downloads\gradle-2.13-all\gradle-2.13\bin;C:\dev\bin;C:\cts\jdk8\bin;C:\dev\unix\usr\local\wbin;C:\Program Files\nodejs\;C:\dev\unix\usr\local\wbin;"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_77/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://149.63.89.132:8080/job/CMCAutomation3/1/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\200123\workspace\CmcAutomation3.0"/>
+    <property name="JOB_URL" value="http://149.63.89.132:8080/job/CMCAutomation3/"/>
+    <property name="USERDOMAIN" value="CARCGNT"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="1"/>
+    <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="JENKINS_URL" value="http://149.63.89.132:8080/"/>
+    <property name="PROCESSOR_REVISION" value="3d04"/>
+    <property name="UATDATA" value="C:\Windows\SysWOW64\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar"/>
+    <property name="WORKSPACE" value="C:\Program Files (x86)\Jenkins\jobs\CMCAutomation3\workspace"/>
+    <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar"/>
+    <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\"/>
+  </properties>
+  <testcase classname="automationFramework.TestCases.SearchTest" name="searchCustomerVerifiedTest" time="7.615">
+    <failure message="element not visible
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 37 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\WINDOWS\TEMP\scoped_dir64868_24421}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2ea5beb1837480584f2b3ac907c7740d" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 37 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\WINDOWS\TEMP\scoped_dir64868_24421}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2ea5beb1837480584f2b3ac907c7740d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at automationFramework.PageObjects.CreateCustomerPage.clickNewCustomer(CreateCustomerPage.java:88)
+	at automationFramework.TestCases.CoreTest.createCustomerClickHome(CoreTest.java:180)
+	at automationFramework.TestCases.SearchTest.searchCustomerVerifiedTest(SearchTest.java:50)
+</failure>
+    <system-out>Time in Milliseconds: 0 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:08:17,946 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+2017-01-03 16:08:17,946 INFO  [Logger] Setup Started 
+Time in Milliseconds: 145 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:08:18,091 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+2017-01-03 16:08:18,091 INFO  [Logger] Current OS: Windows 7 Enterprise 
+Time in Milliseconds: 146 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:08:18,092 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+2017-01-03 16:08:18,092 INFO  [Logger] Current Browser: chrome.exe 
+Time in Milliseconds: 1974 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:08:19,920 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+2017-01-03 16:08:19,920 INFO  [Logger] Setup Completed 
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 19156
+Only local connections are allowed.
+Jan 03, 2017 4:08:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
+Jan 03, 2017 4:08:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="automationFramework.TestCases.SearchTest" name="searchCustomerNotVerifiedTest" time="13.286">
+    <failure message="unknown error: Element is not clickable at point (193, 119). Other element would receive the click: &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;nav-collapse-1&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 54 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\WINDOWS\TEMP\scoped_dir66268_25226}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1fda9588fda421de363d990ba93ff19c" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (193, 119). Other element would receive the click: &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;nav-collapse-1&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 54 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\WINDOWS\TEMP\scoped_dir66268_25226}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1fda9588fda421de363d990ba93ff19c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at automationFramework.PageObjects.SearchPage.clickNotVerified(SearchPage.java:145)
+	at automationFramework.TestCases.SearchTest.searchCustomerNotVerifiedTest(SearchTest.java:110)
+</failure>
+    <system-out>Time in Milliseconds: 9589 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:08:27,535 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+2017-01-03 16:08:27,535 INFO  [Logger] TearDown Complete 
+Time in Milliseconds: 10604 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:08:28,550 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 10604 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:08:28,550 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+2017-01-03 16:08:28,550 INFO  [Logger] Setup Started 
+Time in Milliseconds: 10657 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:08:28,603 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 10657 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:08:28,603 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+2017-01-03 16:08:28,603 INFO  [Logger] Current OS: Windows 7 Enterprise 
+Time in Milliseconds: 10658 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:08:28,604 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 10658 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:08:28,604 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+2017-01-03 16:08:28,604 INFO  [Logger] Current Browser: chrome.exe 
+Time in Milliseconds: 11919 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:08:29,865 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 11919 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:08:29,865 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+2017-01-03 16:08:29,865 INFO  [Logger] Setup Completed 
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 30362
+Only local connections are allowed.
+Jan 03, 2017 4:08:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
+Jan 03, 2017 4:08:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="automationFramework.TestCases.SearchTest" name="searchCustomerNoResultsTest" time="12.118"/>
+  <testcase classname="automationFramework.TestCases.SearchTest" name="searchCustomerTypeNotSelected" time="10.06"/>
+  <testcase classname="automationFramework.TestCases.SearchTest" name="searchCustomerInvalidEmail" time="11.611"/>
+  <testcase classname="automationFramework.TestCases.SearchTest" name="searchCustomerCheckDuplicateTestFname" time="18.082"/>
+  <testcase classname="automationFramework.TestCases.SearchTest" name="searchCustomerCheckDuplicateTestLname" time="16.869"/>
+  <testcase classname="automationFramework.TestCases.SearchTest" name="searchCustomerCheckDuplicateTestFnameLname" time="15.548"/>
+  <testcase classname="automationFramework.TestCases.SearchTest" name="searchCustomerCheckDuplicateTestPhone" time="8.12">
+    <failure message="element not visible
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 106 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\WINDOWS\TEMP\scoped_dir58436_10090}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: baa0a2adfb5e65494fd0db349c6d4e26" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 106 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\WINDOWS\TEMP\scoped_dir58436_10090}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: baa0a2adfb5e65494fd0db349c6d4e26
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at automationFramework.PageObjects.CreateCustomerPage.clickNewCustomer(CreateCustomerPage.java:88)
+	at automationFramework.TestCases.CoreTest.createCustomerClickHome(CoreTest.java:180)
+	at automationFramework.TestCases.SearchTest.createNewCustomer(SearchTest.java:489)
+	at automationFramework.TestCases.SearchTest.searchCustomerCheckDuplicateTestPhone(SearchTest.java:208)
+</failure>
+    <system-out>Time in Milliseconds: 122117 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,063 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 122117 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,063 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 122117 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,063 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 122117 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,063 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 122117 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,063 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 122117 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,063 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 122117 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,063 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 122117 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,063 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+2017-01-03 16:10:20,063 INFO  [Logger] TearDown Complete 
+Time in Milliseconds: 122812 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,758 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 122812 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,758 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 122812 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,758 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 122812 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,758 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 122812 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,758 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 122812 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,758 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 122812 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,758 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 122812 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,758 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 122812 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,758 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+2017-01-03 16:10:20,758 INFO  [Logger] Setup Started 
+Time in Milliseconds: 122863 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,809 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 122863 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,809 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 122863 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,809 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 122863 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,809 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 122863 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,809 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 122863 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,809 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 122863 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,809 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 122863 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,809 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 122863 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,809 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+2017-01-03 16:10:20,809 INFO  [Logger] Current OS: Windows 7 Enterprise 
+Time in Milliseconds: 122864 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,810 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 122864 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,810 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 122864 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,810 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 122864 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,810 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 122864 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,810 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 122864 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,810 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 122864 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,810 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 122864 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,810 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 122864 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:20,810 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+2017-01-03 16:10:20,810 INFO  [Logger] Current Browser: chrome.exe 
+Time in Milliseconds: 124047 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:21,993 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 124047 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:21,993 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 124047 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:21,993 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 124047 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:21,993 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 124047 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:21,993 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 124047 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:21,993 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 124047 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:21,993 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 124047 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:21,993 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 124047 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:21,993 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+2017-01-03 16:10:21,993 INFO  [Logger] Setup Completed 
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 34781
+Only local connections are allowed.
+Jan 03, 2017 4:10:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
+Jan 03, 2017 4:10:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="automationFramework.TestCases.SearchTest" name="searchCustomerCheckDuplicateTestEmail" time="8.278">
+    <failure message="unknown error: keys should be a string
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\WINDOWS\TEMP\scoped_dir55064_19931}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6aa32b0f3f49ce2af5faead48cdb90a7" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: keys should be a string
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\WINDOWS\TEMP\scoped_dir55064_19931}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6aa32b0f3f49ce2af5faead48cdb90a7
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+	at automationFramework.PageObjects.SearchPage.enterEmail(SearchPage.java:105)
+	at automationFramework.TestCases.SearchTest.searchCustomerCheckDuplicateTestEmail(SearchTest.java:226)
+</failure>
+    <system-out>Time in Milliseconds: 132169 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,115 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 132169 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,115 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 132169 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,115 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 132169 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,115 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 132169 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,115 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 132169 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,115 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 132169 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,115 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 132169 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,115 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 132169 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,115 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+2017-01-03 16:10:30,115 INFO  [Logger] TearDown Complete 
+Time in Milliseconds: 132995 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,941 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 132995 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,941 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 132995 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,941 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 132995 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,941 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 132995 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,941 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 132995 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,941 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 132995 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,941 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 132995 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,941 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 132995 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,941 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 132995 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,941 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+2017-01-03 16:10:30,941 INFO  [Logger] Setup Started 
+Time in Milliseconds: 133048 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,994 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 133048 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,994 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 133048 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,994 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 133048 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,994 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 133048 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,994 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 133048 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,994 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 133048 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,994 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 133048 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,994 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 133048 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,994 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 133048 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,994 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+2017-01-03 16:10:30,994 INFO  [Logger] Current OS: Windows 7 Enterprise 
+Time in Milliseconds: 133050 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,996 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 133050 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,996 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 133050 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,996 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 133050 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,996 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 133050 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,996 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 133050 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,996 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 133050 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,996 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 133050 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,996 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 133050 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,996 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 133050 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:30,996 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+2017-01-03 16:10:30,996 INFO  [Logger] Current Browser: chrome.exe 
+Time in Milliseconds: 134175 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:32,121 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 134175 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:32,121 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 134175 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:32,121 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 134175 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:32,121 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 134175 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:32,121 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 134175 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:32,121 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 134175 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:32,121 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 134175 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:32,121 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 134175 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:32,121 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 134175 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:32,121 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+2017-01-03 16:10:32,121 INFO  [Logger] Setup Completed 
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 24123
+Only local connections are allowed.
+Jan 03, 2017 4:10:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
+Jan 03, 2017 4:10:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="automationFramework.TestCases.SearchTest" name="searchCustomerCheckDuplicateTestEmailPhone" time="9.571">
+    <failure message="unknown error: keys should be a string
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 48 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\WINDOWS\TEMP\scoped_dir55536_6222}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ca16db7f7d0486bf8dc8ee7dbbe27d77" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: keys should be a string
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 48 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\WINDOWS\TEMP\scoped_dir55536_6222}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ca16db7f7d0486bf8dc8ee7dbbe27d77
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+	at automationFramework.PageObjects.SearchPage.enterEmail(SearchPage.java:105)
+	at automationFramework.TestCases.SearchTest.searchCustomerCheckDuplicateTestEmailPhone(SearchTest.java:240)
+</failure>
+    <system-out>Time in Milliseconds: 142456 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:40,402 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 142456 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:40,402 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 142456 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:40,402 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 142456 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:40,402 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 142456 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:40,402 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 142456 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:40,402 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 142456 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:40,402 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 142456 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:40,402 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 142456 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:40,402 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 142456 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:40,402 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+2017-01-03 16:10:40,402 INFO  [Logger] TearDown Complete 
+Time in Milliseconds: 143237 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,183 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 143237 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,183 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 143237 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,183 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 143237 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,183 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 143237 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,183 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 143237 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,183 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 143237 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,183 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 143237 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,183 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 143237 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,183 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 143237 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,183 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 143237 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,183 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+2017-01-03 16:10:41,183 INFO  [Logger] Setup Started 
+Time in Milliseconds: 143301 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,247 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 143301 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,247 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 143301 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,247 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 143301 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,247 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 143301 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,247 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 143301 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,247 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 143301 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,247 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 143301 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,247 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 143301 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,247 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 143301 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,247 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 143301 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,247 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+2017-01-03 16:10:41,247 INFO  [Logger] Current OS: Windows 7 Enterprise 
+Time in Milliseconds: 143302 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,248 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 143302 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,248 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 143302 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,248 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 143302 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,248 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 143302 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,248 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 143302 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,248 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 143302 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,248 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 143302 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,248 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 143302 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,248 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 143302 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,248 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 143302 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:41,248 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+2017-01-03 16:10:41,248 INFO  [Logger] Current Browser: chrome.exe 
+Time in Milliseconds: 144802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:42,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 144802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:42,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 144802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:42,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 144802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:42,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 144802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:42,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 144802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:42,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 144802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:42,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 144802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:42,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 144802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:42,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 144802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:42,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 144802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:42,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+2017-01-03 16:10:42,748 INFO  [Logger] Setup Completed 
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 28255
+Only local connections are allowed.
+Jan 03, 2017 4:10:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
+Jan 03, 2017 4:10:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="automationFramework.TestCases.SearchTest" name="searchCustomerCheckDuplicateTestAll" time="9.547">
+    <failure message="unknown error: keys should be a string
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 34 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\WINDOWS\TEMP\scoped_dir64976_18560}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1f1e40ef54427eec24d7a6a4968940a4" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: keys should be a string
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 34 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\WINDOWS\TEMP\scoped_dir64976_18560}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1f1e40ef54427eec24d7a6a4968940a4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+	at automationFramework.PageObjects.SearchPage.enterEmail(SearchPage.java:105)
+	at automationFramework.TestCases.SearchTest.searchCustomerCheckDuplicateTestAll(SearchTest.java:258)
+</failure>
+    <system-out>Time in Milliseconds: 154375 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:52,321 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 154375 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:52,321 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 154375 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:52,321 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 154375 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:52,321 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 154375 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:52,321 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 154375 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:52,321 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 154375 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:52,321 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 154375 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:52,321 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 154375 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:52,321 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 154375 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:52,321 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 154375 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:52,321 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+2017-01-03 16:10:52,321 INFO  [Logger] TearDown Complete 
+Time in Milliseconds: 155609 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,555 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 155609 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,555 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 155609 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,555 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 155609 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,555 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 155609 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,555 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 155609 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,555 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 155609 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,555 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 155609 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,555 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 155609 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,555 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 155609 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,555 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 155609 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,555 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 155609 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,555 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+2017-01-03 16:10:53,555 INFO  [Logger] Setup Started 
+Time in Milliseconds: 155664 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,610 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 155664 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,610 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 155664 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,610 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 155664 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,610 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 155664 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,610 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 155664 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,610 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 155664 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,610 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 155664 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,610 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 155664 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,610 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 155664 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,610 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 155664 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,610 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 155664 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,610 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+2017-01-03 16:10:53,610 INFO  [Logger] Current OS: Windows 7 Enterprise 
+Time in Milliseconds: 155665 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,611 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 155665 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,611 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 155665 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,611 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 155665 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,611 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 155665 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,611 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 155665 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,611 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 155665 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,611 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 155665 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,611 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 155665 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,611 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 155665 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,611 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 155665 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,611 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 155665 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:53,611 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+2017-01-03 16:10:53,611 INFO  [Logger] Current Browser: chrome.exe 
+Time in Milliseconds: 156992 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:54,938 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 156992 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:54,938 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 156992 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:54,938 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 156992 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:54,938 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 156992 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:54,938 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 156992 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:54,938 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 156992 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:54,938 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 156992 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:54,938 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 156992 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:54,938 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 156992 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:54,938 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 156992 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:54,938 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 156992 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:10:54,938 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+2017-01-03 16:10:54,938 INFO  [Logger] Setup Completed 
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 27409
+Only local connections are allowed.
+Jan 03, 2017 4:10:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
+Jan 03, 2017 4:10:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="automationFramework.TestCases.SearchTest" name="searchNewSearchButton" time="8.351">
+    <failure message="element not visible
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\WINDOWS\TEMP\scoped_dir62932_11164}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b65c289683d0aa7feac234c35b89c28f" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\WINDOWS\TEMP\scoped_dir62932_11164}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b65c289683d0aa7feac234c35b89c28f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at automationFramework.PageObjects.BasePage.clickNewCustomer(BasePage.java:195)
+	at automationFramework.TestCases.SearchTest.searchNewSearchButton(SearchTest.java:278)
+</failure>
+    <system-out>Time in Milliseconds: 166541 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:04,487 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 166541 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:04,487 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 166541 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:04,487 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 166541 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:04,487 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 166541 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:04,487 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 166541 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:04,487 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 166541 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:04,487 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 166541 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:04,487 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 166541 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:04,487 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 166541 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:04,487 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 166541 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:04,487 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 166541 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:04,487 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+2017-01-03 16:11:04,487 INFO  [Logger] TearDown Complete 
+Time in Milliseconds: 167360 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,306 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 167360 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,306 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 167360 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,306 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 167360 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,306 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 167360 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,306 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 167360 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,306 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 167360 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,306 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 167360 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,306 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 167360 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,306 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 167360 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,306 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 167360 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,306 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 167360 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,306 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 167360 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,306 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+2017-01-03 16:11:05,306 INFO  [Logger] Setup Started 
+Time in Milliseconds: 167415 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,361 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 167415 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,361 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 167415 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,361 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 167415 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,361 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 167415 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,361 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 167415 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,361 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 167415 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,361 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 167415 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,361 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 167415 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,361 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 167415 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,361 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 167415 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,361 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 167415 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,361 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 167415 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,361 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+2017-01-03 16:11:05,361 INFO  [Logger] Current OS: Windows 7 Enterprise 
+Time in Milliseconds: 167420 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,366 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 167420 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,366 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 167420 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,366 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 167420 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,366 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 167420 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,366 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 167420 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,366 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 167420 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,366 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 167420 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,366 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 167420 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,366 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 167420 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,366 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 167420 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,366 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 167420 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,366 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 167420 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:05,366 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+2017-01-03 16:11:05,366 INFO  [Logger] Current Browser: chrome.exe 
+Time in Milliseconds: 168571 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:06,517 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 168571 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:06,517 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 168571 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:06,517 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 168571 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:06,517 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 168571 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:06,517 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 168571 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:06,517 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 168571 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:06,517 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 168571 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:06,517 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 168571 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:06,517 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 168571 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:06,517 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 168571 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:06,517 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 168571 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:06,517 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 168571 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:11:06,517 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+2017-01-03 16:11:06,517 INFO  [Logger] Setup Completed 
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 14203
+Only local connections are allowed.
+Jan 03, 2017 4:11:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
+Jan 03, 2017 4:11:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="automationFramework.TestCases.SearchTest" name="searchCustomerAndCriteriaLastName" time="130.872"/>
+  <testcase classname="automationFramework.TestCases.SearchTest" name="searchCustomerAndCriteriaLastNameEmail" time="251.124"/>
+  <testcase classname="automationFramework.TestCases.SearchTest" name="searchCustomerVerifiedThreeInfoTest" time="7.993">
+    <failure message="element not visible
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\WINDOWS\TEMP\scoped_dir64520_28791}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 94c825912b498f0df2692c1a88108acf" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\WINDOWS\TEMP\scoped_dir64520_28791}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 94c825912b498f0df2692c1a88108acf
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at automationFramework.PageObjects.CreateCustomerPage.clickNewCustomer(CreateCustomerPage.java:88)
+	at automationFramework.TestCases.CoreTest.createCustomerClickHome(CoreTest.java:180)
+	at automationFramework.TestCases.SearchTest.searchCustomerVerifiedThreeInfoTest(SearchTest.java:356)
+</failure>
+    <system-out>Time in Milliseconds: 562856 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:40,802 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 562856 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:40,802 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 562856 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:40,802 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 562856 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:40,802 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 562856 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:40,802 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 562856 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:40,802 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 562856 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:40,802 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 562856 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:40,802 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 562856 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:40,802 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 562856 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:40,802 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 562856 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:40,802 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 562856 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:40,802 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 562856 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:40,802 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 562856 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:40,802 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 562856 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:40,802 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+2017-01-03 16:17:40,802 INFO  [Logger] TearDown Complete 
+Time in Milliseconds: 563499 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,445 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 563499 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,445 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 563499 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,445 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 563499 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,445 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 563499 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,445 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 563499 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,445 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 563499 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,445 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 563499 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,445 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 563499 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,445 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 563499 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,445 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 563499 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,445 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 563499 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,445 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 563499 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,445 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 563499 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,445 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 563499 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,445 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 563499 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,445 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+2017-01-03 16:17:41,445 INFO  [Logger] Setup Started 
+Time in Milliseconds: 563551 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,497 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 563551 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,497 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 563551 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,497 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 563551 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,497 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 563551 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,497 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 563551 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,497 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 563551 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,497 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 563551 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,497 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 563551 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,497 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 563551 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,497 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 563551 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,497 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 563551 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,497 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 563551 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,497 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 563551 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,497 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 563551 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,497 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 563551 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,497 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+2017-01-03 16:17:41,497 INFO  [Logger] Current OS: Windows 7 Enterprise 
+Time in Milliseconds: 563552 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,498 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 563552 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,498 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 563552 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,498 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 563552 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,498 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 563552 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,498 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 563552 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,498 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 563552 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,498 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 563552 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,498 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 563552 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,498 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 563552 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,498 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 563552 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,498 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 563552 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,498 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 563552 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,498 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 563552 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,498 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 563552 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,498 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 563552 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:41,498 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+2017-01-03 16:17:41,498 INFO  [Logger] Current Browser: chrome.exe 
+Time in Milliseconds: 564705 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:42,651 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 564705 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:42,651 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 564705 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:42,651 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 564705 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:42,651 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 564705 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:42,651 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 564705 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:42,651 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 564705 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:42,651 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 564705 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:42,651 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 564705 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:42,651 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 564705 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:42,651 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 564705 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:42,651 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 564705 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:42,651 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 564705 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:42,651 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 564705 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:42,651 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 564705 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:42,651 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 564705 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:42,651 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+2017-01-03 16:17:42,651 INFO  [Logger] Setup Completed 
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 42526
+Only local connections are allowed.
+Jan 03, 2017 4:17:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
+Jan 03, 2017 4:17:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="automationFramework.TestCases.SearchTest" name="searchCustomerNotVerifiedThreeInfoTest" time="7.867">
+    <failure message="element not visible
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\WINDOWS\TEMP\scoped_dir66896_22933}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 40920bde5bd0dd1d2e956bb365c7b2eb" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\WINDOWS\TEMP\scoped_dir66896_22933}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 40920bde5bd0dd1d2e956bb365c7b2eb
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at automationFramework.PageObjects.CreateCustomerPage.clickNewCustomer(CreateCustomerPage.java:88)
+	at automationFramework.TestCases.CoreTest.createCustomerClickHome(CoreTest.java:180)
+	at automationFramework.TestCases.SearchTest.searchCustomerNotVerifiedThreeInfoTest(SearchTest.java:406)
+</failure>
+    <system-out>Time in Milliseconds: 572704 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:50,650 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 572704 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:50,650 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 572704 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:50,650 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 572704 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:50,650 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 572704 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:50,650 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 572704 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:50,650 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 572704 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:50,650 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 572704 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:50,650 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 572704 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:50,650 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 572704 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:50,650 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 572704 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:50,650 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 572704 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:50,650 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 572704 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:50,650 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 572704 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:50,650 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 572704 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:50,650 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 572704 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:50,650 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+2017-01-03 16:17:50,650 INFO  [Logger] TearDown Complete 
+Time in Milliseconds: 573585 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,531 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 573585 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,531 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 573585 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,531 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 573585 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,531 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 573585 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,531 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 573585 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,531 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 573585 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,531 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 573585 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,531 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 573585 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,531 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 573585 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,531 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 573585 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,531 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 573585 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,531 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 573585 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,531 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 573585 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,531 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 573585 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,531 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 573585 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,531 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 573585 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,531 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+2017-01-03 16:17:51,531 INFO  [Logger] Setup Started 
+Time in Milliseconds: 573637 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,583 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 573637 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,583 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 573637 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,583 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 573637 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,583 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 573637 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,583 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 573637 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,583 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 573637 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,583 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 573637 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,583 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 573637 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,583 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 573637 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,583 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 573637 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,583 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 573637 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,583 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 573637 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,583 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 573637 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,583 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 573637 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,583 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 573637 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,583 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 573637 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,583 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+2017-01-03 16:17:51,583 INFO  [Logger] Current OS: Windows 7 Enterprise 
+Time in Milliseconds: 573638 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,584 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 573638 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,584 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 573638 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,584 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 573638 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,584 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 573638 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,584 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 573638 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,584 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 573638 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,584 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 573638 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,584 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 573638 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,584 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 573638 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,584 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 573638 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,584 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 573638 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,584 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 573638 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,584 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 573638 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,584 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 573638 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,584 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 573638 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,584 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 573638 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:51,584 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+2017-01-03 16:17:51,584 INFO  [Logger] Current Browser: chrome.exe 
+Time in Milliseconds: 574880 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:52,826 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 574880 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:52,826 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 574880 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:52,826 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 574880 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:52,826 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 574880 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:52,826 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 574880 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:52,826 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 574880 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:52,826 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 574880 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:52,826 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 574880 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:52,826 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 574880 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:52,826 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 574880 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:52,826 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 574880 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:52,826 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 574880 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:52,826 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 574880 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:52,826 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 574880 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:52,826 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 574880 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:52,826 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 574880 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:17:52,826 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+2017-01-03 16:17:52,826 INFO  [Logger] Setup Completed 
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 8347
+Only local connections are allowed.
+Jan 03, 2017 4:17:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
+Jan 03, 2017 4:17:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="automationFramework.TestCases.SearchTest" name="searchCustomerClickNotVerified" time="7.571">
+    <failure message="element not visible
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\WINDOWS\TEMP\scoped_dir65464_32565}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0a8b594aed3e5f55a78ef161e92a238b" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\WINDOWS\TEMP\scoped_dir65464_32565}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0a8b594aed3e5f55a78ef161e92a238b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at automationFramework.PageObjects.CreateCustomerPage.clickNewCustomer(CreateCustomerPage.java:88)
+	at automationFramework.TestCases.CoreTest.createCustomerClickHome(CoreTest.java:180)
+	at automationFramework.TestCases.SearchTest.searchCustomerClickNotVerified(SearchTest.java:444)
+</failure>
+    <system-out>Time in Milliseconds: 582751 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:00,697 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 582751 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:00,697 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 582751 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:00,697 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 582751 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:00,697 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 582751 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:00,697 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 582751 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:00,697 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 582751 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:00,697 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 582751 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:00,697 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 582751 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:00,697 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 582751 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:00,697 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 582751 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:00,697 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 582751 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:00,697 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 582751 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:00,697 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 582751 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:00,697 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 582751 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:00,697 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 582751 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:00,697 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+Time in Milliseconds: 582751 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:00,697 
+Code Location: automationFramework.TestCases.SearchTest.tearDown(SearchTest.java:508) 
+Log Message: TearDown Complete 
+ 
+2017-01-03 16:18:00,697 INFO  [Logger] TearDown Complete 
+Time in Milliseconds: 583620 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,566 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 583620 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,566 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 583620 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,566 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 583620 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,566 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 583620 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,566 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 583620 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,566 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 583620 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,566 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 583620 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,566 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 583620 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,566 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 583620 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,566 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 583620 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,566 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 583620 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,566 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 583620 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,566 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 583620 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,566 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 583620 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,566 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 583620 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,566 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 583620 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,566 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+Time in Milliseconds: 583620 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,566 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:37) 
+Log Message: Setup Started 
+ 
+2017-01-03 16:18:01,566 INFO  [Logger] Setup Started 
+Time in Milliseconds: 583672 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,618 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 583672 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,618 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 583672 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,618 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 583672 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,618 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 583672 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,618 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 583672 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,618 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 583672 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,618 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 583672 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,618 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 583672 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,618 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 583672 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,618 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 583672 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,618 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 583672 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,618 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 583672 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,618 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 583672 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,618 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 583672 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,618 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 583672 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,618 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 583672 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,618 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+Time in Milliseconds: 583672 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,618 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:38) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+2017-01-03 16:18:01,618 INFO  [Logger] Current OS: Windows 7 Enterprise 
+Time in Milliseconds: 583674 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,620 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 583674 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,620 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 583674 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,620 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 583674 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,620 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 583674 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,620 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 583674 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,620 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 583674 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,620 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 583674 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,620 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 583674 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,620 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 583674 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,620 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 583674 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,620 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 583674 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,620 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 583674 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,620 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 583674 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,620 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 583674 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,620 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 583674 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,620 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 583674 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,620 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+Time in Milliseconds: 583674 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:01,620 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:39) 
+Log Message: Current Browser: chrome.exe 
+ 
+2017-01-03 16:18:01,620 INFO  [Logger] Current Browser: chrome.exe 
+Time in Milliseconds: 584802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:02,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 584802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:02,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 584802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:02,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 584802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:02,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 584802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:02,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 584802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:02,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 584802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:02,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 584802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:02,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 584802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:02,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 584802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:02,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 584802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:02,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 584802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:02,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 584802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:02,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 584802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:02,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 584802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:02,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 584802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:02,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 584802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:02,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+Time in Milliseconds: 584802 
+Test Case: automationFramework.TestCases.SearchTest 
+Time Stamp: 2017-01-03 16:18:02,748 
+Code Location: automationFramework.TestCases.SearchTest.setUp(SearchTest.java:42) 
+Log Message: Setup Completed 
+ 
+2017-01-03 16:18:02,748 INFO  [Logger] Setup Completed 
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 32808
+Only local connections are allowed.
+Jan 03, 2017 4:18:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
+Jan 03, 2017 4:18:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+</testsuite>

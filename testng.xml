@@ -1,0 +1,24 @@
+<suite name="Automation - Suite" >
+	<test name ="ChromeTest">
+	<parameter name="browser" value="chrome.exe" />
+		<classes>
+		    <class name="automationFramework.TestCases.CreateCustomerTest" />
+		    <class name="automationFramework.TestCases.SearchTest" />
+		    <class name="automationFramework.TestCases.CreateFundingTest" />    
+		    <class name="automationFramework.TestCases.LinkAccountTest" />   
+		    <class name="automationFramework.TestCases.CreateOrderTest" />  
+		    <class name="automationFramework.TestCases.TravelHistoryTest" /> 
+		    <class name="automationFramework.TestCases.CreateFundingDBTest" /> 
+		    <class name="automationFramework.TestCases.CreateCustomerDBTest" /> 
+		    <class name="automationFramework.TestCases.EmailTest" />
+		    <class name="automationFramework.TestCases.UpdateAddressTest" /> 
+		    <class name="automationFramework.TestCases.UpdateContactTest" /> 
+		    <class name="automationFramework.TestCases.CreateUnregistredCustomerTest" />
+		    <class name="automationFramework.TestCases.TokenSearchTest" />
+		</classes>
+	</test>
+		<listeners>
+       <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+</suite>

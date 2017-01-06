@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FirefoxTest"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="73.431">
+  <properties />
+  
+  
+            <testcase name="linkAccountBankNumberMissingTest" time="24.509" classname="automationFramework.TestCases.LinkAccountTest" />
+                <testcase name="linkAccountCancelTest" time="27.649" classname="automationFramework.TestCases.LinkAccountTest" />
+                <testcase name="linkAccountCardExpirationMissingTest" time="21.273" classname="automationFramework.TestCases.LinkAccountTest" />
+      
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FirefoxTest"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="90.857">
+  <properties />
+  
+  
+            <testcase name="checkBalanceHistoryDetail" time="51.625" classname="automationFramework.TestCases.BalanceHistoryTest" />
+                <testcase name="checkBalanceHistory" time="39.232" classname="automationFramework.TestCases.BalanceHistoryTest" />
+      
+</testsuite>

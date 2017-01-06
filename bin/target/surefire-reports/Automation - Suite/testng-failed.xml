@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Automation - Suite]">
+  <parameter name="browser" value="firefox.exe"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox.exe"/>
+    <classes>
+      <class name="automationFramework.TestCases.CmcTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="createCustomerFundingInvalidCC"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.CmcTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Automation - Suite] -->
